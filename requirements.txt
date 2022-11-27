@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+math
+python-multipart
+opencv-python
+numpy
+fastapi-jwt-auth
