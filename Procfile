@@ -1,1 +1,1 @@
-web: python Image_inversion.py
+web: python img_inv/Image_inversion.py
