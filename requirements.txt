@@ -1,7 +1,13 @@
-fastapi
-uvicorn[standard]
-python-multipart
-opencv-python
+python-multipart>=0.0.5
+opencv-python-headless>=4.6
 numpy
 fastapi-jwt-auth
 gunicorn
+fastapi>=0.87
+uvicorn[standard]>=0.19
+sympy>=1.11
+pytest>=7.2
+requests>=2.28
+bcrypt>=4.0
+httpx>=0.23
+locust>=2.13
