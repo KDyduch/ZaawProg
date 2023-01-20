@@ -12,4 +12,4 @@ ENV HOST=0.0.0.0
 ENV PORT=80
 
 
-CMD src.app.app:app --host=${HOST} --port=${PORT}
+CMD src.app.img_inv.Image_inversion:app --host=${HOST} --port=${PORT}
