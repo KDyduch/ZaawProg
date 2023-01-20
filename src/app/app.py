@@ -4,5 +4,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-async def display():
+async def zadzialaj():
     return RedirectResponse("/docs")
