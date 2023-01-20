@@ -11,6 +11,5 @@ COPY ./src /code/src
 ENV HOST=0.0.0.0
 ENV PORT=80
 
-RUN apt-get update 
-RUN apt-get install libgl1
-CMD src.app.login.Login:app --host=${HOST} --port=${PORT}
+
+CMD src.app.app:app --host=${HOST} --port=${PORT}
