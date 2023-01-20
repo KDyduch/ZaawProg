@@ -1,1 +1,2 @@
-web: uvicorn src.app.app:app --reload -p $PORT
+web: node app.js
+web: uvicorn src.app.app:app --reload
